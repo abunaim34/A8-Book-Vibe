@@ -4,18 +4,18 @@ const ShowBook = ({ book }) => {
     const { name, image, author, category, review, tags, rating, pages, publisher, yearOfPublishing } = book || {}
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl lg:space-x-14">
-            <div className=" w-[573px] h-[700px]">
-                <figure><img className="w-[425px] h-[630px] rounded-3xl" src={image} alt="Album" /></figure>
+            <div className=" w-full lg:w-[573px] lg:h-[700px]">
+                <figure><img className="lg:w-[425px] lg:h-[630px] rounded-3xl" src={image} alt="Album" /></figure>
             </div>
             <div className="card-body">
-                <h2 className="card-title mb-5 font-bold text-3xl">{name}</h2>
+                <h2 className="card-title mb-5  font-bold text-2xl">{name}</h2>
                 <p className="font-medium text-xl ">By : {author}</p>
                 <p className="font-medium text-xl pt-3 border-y"> {category}</p>
                 <div className="pt-0">
                     <span className="font-bold text-black">Review: </span> <span>{review}</span>
                 </div>
                 <div className="flex">
-                    <span className="font-bold text-black pr-2">Tag : </span>
+                    <span className="font-bold text-black pr-2">Tag: </span>
                     <ul className="flex gap-3 ">
                         {
                             tags.map((tag, i) => <li key={i} className="text-[#23BE0A] font-medium px-2 bg-[#23BE0A0D] rounded-full">{tag}</li>)

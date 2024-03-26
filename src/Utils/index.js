@@ -9,3 +9,8 @@ export const saveBookLocalStored = (book) =>{
         localStorage.setItem("books", localBook)
     }
 }
+
+export const getBookFromLocal = () =>{
+    const getDefaultBook = JSON.parse(localStorage.getItem("books")) || [];
+    return getDefaultBook;
+}

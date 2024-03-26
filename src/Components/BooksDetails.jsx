@@ -10,7 +10,7 @@ const BooksDetails = () => {
 
 
     const handleReadBook = () => {
-        console.log('readbook');
+        // console.log('readbook');
         saveBookLocalStored(book)
     }
 

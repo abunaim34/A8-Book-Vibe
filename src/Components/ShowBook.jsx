@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 
-const ShowBook = ({ book }) => {
-    const { name, image, author, category, review, tags, rating, pages, publisher, yearOfPublishing } = book || {}
+const ShowBook = ({ book, handleReadBook, handleWishlist}) => {
+    const { name, image, author, category,  review, tags, rating, pages, publisher, yearOfPublishing } = book || {};
+
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl lg:space-x-14">
             <div className=" w-full lg:w-[573px] lg:h-[700px]">
@@ -37,13 +38,13 @@ const ShowBook = ({ book }) => {
                     </div>
                 </div>
                 <div className="mt-8 space-x-4">
-                    <a href="#_" className="relative z-30 inline-flex items-center justify-center w-auto px-8 py-3 overflow-hidden font-bold text-black transition-all duration-500 border border-gray-200 rounded-md cursor-pointer group ease bg-gradient-to-b from-white to-gray-50 hover:from-gray-50 hover:to-white active:to-white">
+                    <a href="#_" onClick={()=> handleReadBook()} className="relative z-30 inline-flex items-center justify-center w-auto px-8 py-3 overflow-hidden font-bold text-black transition-all duration-500 border border-gray-200 rounded-md cursor-pointer group ease bg-gradient-to-b from-white to-gray-50 hover:from-gray-50 hover:to-white active:to-white">
                         <span className="w-full h-0.5 absolute bottom-0 group-active:bg-transparent left-0 bg-gray-100"></span>
                         <span className="h-full w-0.5 absolute bottom-0 group-active:bg-transparent right-0 bg-gray-100"></span>
                         Read
                     </a>
 
-                    <a href="#_" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-indigo-100 border border-indigo-500 rounded-lg shadow-sm cursor-pointer hover:text-white bg-gradient-to-br from-purple-500 via-indigo-500 to-indigo-500">
+                    <a href="#_" onClick={()=> handleWishlist()} className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-indigo-100 border border-indigo-500 rounded-lg shadow-sm cursor-pointer hover:text-white bg-gradient-to-br from-purple-500 via-indigo-500 to-indigo-500">
 
                         <span className="relative">Wishlist</span>
                     </a>
@@ -55,7 +56,9 @@ const ShowBook = ({ book }) => {
 };
 
 ShowBook.propTypes = {
-    book: PropTypes.object
+    book: PropTypes.object.isRequired,
+    handleReadBook: PropTypes.func.isRequired,
+    handleWishlist: PropTypes.func.isRequired
 }
 
 export default ShowBook;

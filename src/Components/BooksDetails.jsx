@@ -1,15 +1,26 @@
 import { useParams } from 'react-router-dom';
 import ShowBook from './ShowBook';
-import {useLoaderData} from "react-router-dom"
+import { useLoaderData } from "react-router-dom"
+import { saveBookLocalStored } from '../Utils';
 
 const BooksDetails = () => {
     const books = useLoaderData()
-    const {id} = useParams()
+    const { id } = useParams()
     const book = books.find(b => b.id == id)
 
+
+    const handleReadBook = () => {
+        console.log('readbook');
+        saveBookLocalStored(book)
+    }
+
+    const handleWishlist = () => {
+        console.log("wishlist");
+
+    }
     return (
         <div className="lg:mx-28 mt-16">
-            <ShowBook book={book}></ShowBook>
+            <ShowBook book={book} handleReadBook={handleReadBook} handleWishlist={handleWishlist}></ShowBook>
         </div>
     );
 };

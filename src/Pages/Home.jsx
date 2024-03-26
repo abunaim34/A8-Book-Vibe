@@ -4,7 +4,7 @@ import Books from "../Components/Books";
 
 const Home = () => {
     return (
-        <div className="mx-28">
+        <div className="lg:mx-28">
             <Banner></Banner>
             <Books></Books>
         </div>

@@ -1,9 +1,9 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "The Shadow of the Wind",
     "author": "Carlos Ruiz Zafón",
-    "image": "https://i.ibb.co/x8GByxP/kindpng-2193744-1.png",
+    "image": "https://i.ibb.co/zJ217gT/book-hardcover-mockup-three-views-125540-226.jpg",
     "review": "In 'The Shadow of the Wind,' Carlos Ruiz Zafón weaves a rich tapestry of mystery and intrigue set against the backdrop of post-war Barcelona. The story follows young Daniel Sempere, who discovers a forgotten book in the Cemetery of Forgotten Books—a place where lost literary treasures are housed and protected. As Daniel delves into the secrets of the book and its author, he becomes entangled in a web of love, betrayal, and danger. Zafón's prose is both lyrical and atmospheric, painting vivid images of a city haunted by its past. 'The Shadow of the Wind' is a captivating read that will keep you turning pages late into the night.",
     "pages": 487,
     "rating": 4.5,
@@ -13,10 +13,10 @@
     "yearOfPublishing": 2001
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "The Catcher in the Rye",
     "author": "George Orwell",
-    "image": "https://i.ibb.co/LpYsSQQ/kindpng-81724-1.png",
+    "image": "https://i.ibb.co/mXDJBgN/Tafsir-Jalalain-dan-sederet-fakta-tentangnya.jpg",
     "review": "George Orwell's '1984' is a chilling dystopian masterpiece that remains frighteningly relevant in today's world. Set in a totalitarian regime where Big Brother watches your every move, the novel explores themes of surveillance, censorship, and the erosion of individual freedom. Through the eyes of protagonist Winston Smith, Orwell paints a bleak picture of a society where truth is malleable and dissent is punishable by death. '1984' serves as a stark warning against the dangers of authoritarianism and the manipulation of truth for political gain. With its powerful message and haunting imagery, this classic work of literature continues to resonate with readers across generations.",
     "pages": 328,
     "rating": 4.7,
@@ -26,10 +26,10 @@
     "yearOfPublishing": 1949
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "image": "https://i.ibb.co/c6KHhXp/kindpng-4022054-1.png",
+    "image": "https://i.ibb.co/0KN3Ln4/book-cover-mockup1-992021-7.jpg",
     "review": "F. Scott Fitzgerald's 'The Great Gatsby' is a timeless tale of love, wealth, and the pursuit of the American Dream. Set against the backdrop of the Roaring Twenties, the novel follows the enigmatic Jay Gatsby as he seeks to win back the heart of his lost love, Daisy Buchanan. Through the eyes of narrator Nick Carraway, we are drawn into a world of extravagance and excess, where appearances often mask deeper truths. Fitzgerald's prose is both lyrical and poignant, capturing the disillusionment of a generation and the fleeting nature of happiness. 'The Great Gatsby' remains a classic of American literature, exploring themes of identity, class, and the corrupting influence of wealth.",
     "pages": 180,
     "rating": 4.3,
@@ -39,10 +39,10 @@
     "yearOfPublishing": 1925
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "image": "https://i.ibb.co/rfSFR36/kindpng-1064993.png",
+    "image": "https://i.ibb.co/x2JWgNc/professional-business-book-cover-23-2149490317.jpg",
     "review": "In 'Sapiens: A Brief History of Humankind,' Yuval Noah Harari takes readers on a sweeping journey through the history of our species. From the emergence of Homo sapiens in Africa to the rise of agricultural societies and the complexities of modern civilization, Harari offers a thought-provoking exploration of what it means to be human. Drawing on insights from biology, anthropology, and history, 'Sapiens' challenges conventional wisdom and invites readers to reconsider their understanding of humanity's past, present, and future. With its engaging narrative and wide-ranging scope, this book is a must-read for anyone interested in the story of our species.",
     "pages": 443,
     "rating": 4.8,
@@ -52,10 +52,10 @@
     "yearOfPublishing": 2011
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "The Hitchhiker's Guide to the Galaxy",
     "author": "Douglas Adams",
-    "image": "https://i.ibb.co/qpwrJMC/kindpng-7318921.png",
+    "image": "https://i.ibb.co/dpqCXDZ/Bnr.png",
     "review": "Douglas Adams' 'The Hitchhiker's Guide to the Galaxy' is a hilarious and absurd romp through space and time. Following the misadventures of Arthur Dent, an ordinary human who finds himself hitchhiking across the galaxy after Earth is demolished to make way for a hyperspace bypass, the novel is a whirlwind of wit and imagination. Joined by an eclectic cast of characters including Ford Prefect, an alien researcher for the titular guidebook, and Zaphod Beeblebrox, the two-headed president of the galaxy, Arthur embarks on a journey that is equal parts bizarre and delightful. With its razor-sharp satire and irreverent humor, 'The Hitchhiker's Guide' is a cult classic that continues to charm readers of all ages.",
     "pages": 224,
     "rating": 4.6,
@@ -65,10 +65,10 @@
     "yearOfPublishing": 1979
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "The Alchemist",
     "author": "Paulo Coelho",
-    "image": "https://i.ibb.co/dpqCXDZ/Bnr.png",
+    "image": "https://i.ibb.co/zX9kSSQ/floral-wedding-card-invitation-flat-style-23-2147780318.jpg",
     "review": "Paulo Coelho's 'The Alchemist' is a philosophical fable about following one's dreams and destiny. The story follows Santiago, a young shepherd who embarks on a journey to fulfill his personal legend—the realization of his deepest desires. Along the way, Santiago encounters a series of mentors and challenges that test his courage and resilience. Through allegorical storytelling and mystical encounters, Coelho explores themes of self-discovery, perseverance, and the interconnectedness of all things. 'The Alchemist' is a deeply spiritual and inspiring novel that encourages readers to listen to their hearts and pursue their own paths in life.",
     "pages": 208,
     "rating": 4.4,

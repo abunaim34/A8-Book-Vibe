@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom"
 
 const ListedBooks = () => {
     const [tab, setTab] = useState(0)
-    const hldl = () => console.log('kichu')
+    // const hldl = () => console.log('kichu')
     return (
         <div className="lg:mx-28 mt-9">
             <div className="bg-[#1313130D] rounded-2xl text-center">
@@ -14,7 +14,7 @@ const ListedBooks = () => {
                 <details className="dropdown">
                     <summary className="m-1 btn text-white font-bold bg-[#23BE0A]">Sort By <FaAngleDown /> </summary>
                     <ul className="p-2 shadow menu dropdown-content bg-[#1313130D] z-[1] bg-base-100 rounded-box w-52">
-                        <li onClick={hldl}> <a href="">Rating</a></li>
+                        <li > <a href="">Rating</a></li>
                         <li><a href="">Number of pages</a></li>
                         <li><a href="">Publisher year</a></li>
                     </ul>

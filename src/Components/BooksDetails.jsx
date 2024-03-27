@@ -1,32 +1,30 @@
 import { useParams } from 'react-router-dom';
 import ShowBook from './ShowBook';
 import { useLoaderData } from "react-router-dom"
-import { saveBookLocalStored } from '../Utils';
-import { saveBookWishlist } from '../Utils/wishlist';
-import { useState } from 'react';
+import {   getBookFromLocal, saveBookLocalStored } from '../Utils';
+import {  saveBookWishlist } from '../Utils/wishlist';
+import toast from "react-hot-toast"
 
 const BooksDetails = () => {
     const books = useLoaderData()
     const { id } = useParams()
     const book = books.find(b => b.id == id)
-    const [booked, setBooked] = useState(false)
 
     const handleReadBook = () => {
-        if(booked == false){
-            setBooked(saveBookLocalStored(book))
-        }
-        else{
-            alert('lock')
-        }
+        saveBookLocalStored(book)
     }
-
-    // const handleReadBook = () => {
-    //     saveBookLocalStored(book)
-    // }
 
     const handleWishlist = () => {
-        saveBookWishlist(book)
+        const reads =  getBookFromLocal()
+        const wishlist = reads.find(read => read.id == book.id)
+        if(wishlist) {
+            toast.error("Already added to read")
+        }else{
+            saveBookWishlist(book)
+        }   
+        
     }
+
     return (
         <div className="lg:mx-28 mt-16">
             <ShowBook book={book} handleReadBook={handleReadBook} handleWishlist={handleWishlist}></ShowBook>

@@ -4,12 +4,12 @@ export const saveBookWishlist = (book) =>{
     const saveBooks = JSON.parse(localStorage.getItem("wishlist")) || [];
     const storedBooks = saveBooks.find(b => b.id == book.id)
     if(storedBooks){
-        toast.error("Book already save")
+        toast.error("Book already added wishlist")
     }else{
         saveBooks.push(book)
         const localBook = JSON.stringify(saveBooks)
         localStorage.setItem("wishlist", localBook)
-        toast.success('Book Successfully!')
+        toast.success('Book added to wishlist Successfully!')
     }
 }
 

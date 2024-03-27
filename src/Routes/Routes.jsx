@@ -46,6 +46,7 @@ export const router = createBrowserRouter([
         },
         {
             path: "/amazoneBooks",
+            loader: () => fetch("/AmazonBooks.json"),
             element: <AmazonBooks />
         },
         {

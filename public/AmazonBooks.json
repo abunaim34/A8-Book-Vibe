@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://i.ibb.co/mXDJBgN/Tafsir-Jalalain-dan-sederet-fakta-tentangnya.jpg",
+      "pages": 336,
+      "rating": 4.2,
+      "category": "Thriller",
+      "publisher": "Celadon Books",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "Educated",
+      "author": "Tara Westover",
+      "image": "https://i.ibb.co/qpwrJMC/kindpng-7318921.png",
+      "pages": 334,
+      "rating": 4.5,
+      "category": "Memoir",
+      "publisher": "Random House",
+      "price": 14.50
+    },
+    {
+      "id": 3,
+      "name": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "https://i.ibb.co/dpqCXDZ/Bnr.png",
+      "pages": 384,
+      "rating": 4.8,
+      "category": "Fiction",
+      "publisher": "G.P. Putnam's Sons",
+      "price": 11.75
+    },
+    {
+      "id": 4,
+      "name": "Becoming",
+      "author": "Michelle Obama",
+      "image": "https://i.ibb.co/0KN3Ln4/book-cover-mockup1-992021-7.jpg",
+      "pages": 426,
+      "rating": 4.7,
+      "category": "Memoir",
+      "publisher": "Crown Publishing",
+      "price": 16.99
+    },
+    {
+      "id": 5,
+      "name": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "image": "https://i.ibb.co/m9j34xx/and-book-new-1.png",
+      "pages": 387,
+      "rating": 4.4,
+      "category": "Fantasy",
+      "publisher": "Doubleday",
+      "price": 10.25
+    },
+    {
+      "id": 6,
+      "name": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "image": "https://i.ibb.co/sV8M34n/cover-new.png",
+      "pages": 224,
+      "rating": 4.6,
+      "category": "Self-Help",
+      "publisher": "HarperOne",
+      "price": 13.75
+    }
+]
+  

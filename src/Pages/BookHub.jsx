@@ -20,12 +20,12 @@ const BookHub = () => {
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">{b.name}</h2>
                         <p>By : {b.author}</p>
-                        <div className="flex justify-between lg:gap-16">
+                        <div className="flex justify-between gap-10 lg:gap-16">
                             <p className="font-medium">{b.category}</p>
                             <p className="flex items-center"><FaStarHalfStroke /> <FaStarHalfStroke /><FaStarHalfStroke className="pr-1 " /> <span className="font-medium">{b.rating}</span></p>
                             <p className="flex items-center"><MdFindInPage className="pr-1" /> <span className="font-medium">{b.pages}</span></p>
                         </div>
-                        <div className="flex justify-between lg:gap-28 border-t-2 pt-3 border-dashed">
+                        <div className="flex justify-between gap-16 lg:gap-28 border-t-2 pt-3 border-dashed">
                             <h1 className="font-bold">Taka. {b.price}</h1>
                             <h1 className="font-bold">Discount. {b.discountedPrice}</h1>
                         </div>

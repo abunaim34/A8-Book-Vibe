@@ -48,27 +48,6 @@ const PageToRead = () => {
             <Tooltip></Tooltip>
         </BarChart>
         </ResponsiveContainer>
-        // <BarChart className='bg-[#13131308] mx-28 mt-9'
-        //     width={1100}
-        //     height={500}
-        //     data={data}
-        //     margin={{
-        //         top: 20,
-        //         right: 30,
-        //         left: 20,
-        //         bottom: 5,
-        //     }}
-        // >
-        //     <CartesianGrid strokeDasharray="3 3" />
-        //     <XAxis dataKey="name" />
-        //     <YAxis />
-        //     <Bar dataKey="pages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
-        //         {data.map((entry, index) => (
-        //             <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-        //         ))}
-        //     </Bar>
-        //     <Tooltip></Tooltip>
-        // </BarChart>
     );
 };
 

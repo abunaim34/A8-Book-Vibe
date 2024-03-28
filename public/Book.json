@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "The Shadow of the Wind",
     "author": "Carlos Ruiz Zafón",
     "image": "https://i.ibb.co/zJ217gT/book-hardcover-mockup-three-views-125540-226.jpg",
@@ -13,7 +13,7 @@
     "yearOfPublishing": 2001
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "The Catcher in the Rye",
     "author": "George Orwell",
     "image": "https://i.ibb.co/mXDJBgN/Tafsir-Jalalain-dan-sederet-fakta-tentangnya.jpg",
@@ -26,7 +26,7 @@
     "yearOfPublishing": 1949
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co/0KN3Ln4/book-cover-mockup1-992021-7.jpg",
@@ -39,7 +39,7 @@
     "yearOfPublishing": 1925
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
     "image": "https://i.ibb.co/x2JWgNc/professional-business-book-cover-23-2149490317.jpg",
@@ -52,7 +52,7 @@
     "yearOfPublishing": 2011
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "The Hitchhiker's Guide to the Galaxy",
     "author": "Douglas Adams",
     "image": "https://i.ibb.co/dpqCXDZ/Bnr.png",
@@ -65,7 +65,7 @@
     "yearOfPublishing": 1979
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co/zX9kSSQ/floral-wedding-card-invitation-flat-style-23-2147780318.jpg",

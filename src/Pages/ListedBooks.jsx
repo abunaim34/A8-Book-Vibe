@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { createContext, useState, } from "react";
 import { FaAngleDown } from "react-icons/fa6";
-import { Link, Outlet } from "react-router-dom"
+import { Link, Outlet} from "react-router-dom"
+
+export const DataContext = createContext()
+
+
 
 const ListedBooks = () => {
     const [tab, setTab] = useState(0)
-    // const hldl = () => console.log('kichu')
+   
     return (
         <div className="lg:mx-28 mt-9">
             <div className="bg-[#1313130D] rounded-2xl text-center">
@@ -14,9 +18,9 @@ const ListedBooks = () => {
                 <details className="dropdown">
                     <summary className="m-1 btn text-white font-bold bg-[#23BE0A]">Sort By <FaAngleDown /> </summary>
                     <ul className="p-2 shadow menu dropdown-content bg-[#1313130D] z-[1] bg-base-100 rounded-box w-52">
-                        <li > <a href="">Rating</a></li>
-                        <li><a href="">Number of pages</a></li>
-                        <li><a href="">Publisher year</a></li>
+                        <li className="hover:bg-gray-400 rounded-lg cursor-pointer"> Rating</li>
+                        <li className="hover:bg-gray-400 rounded-lg cursor-pointer">Number of pages</li>
+                        <li  className="hover:bg-gray-400 rounded-lg cursor-pointer"> Year</li>
                     </ul>
                 </details>
             </div>

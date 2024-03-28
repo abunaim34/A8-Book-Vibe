@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 
 
-const SingleBook = ({ book }) => {
+const SingleBook = ({book}) => {
     const {id, name, image, author, category, tags, rating, pages, publisher, yearOfPublishing } = book || {}
     return (
         <div className="mt-8">

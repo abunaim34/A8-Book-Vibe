@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "The Lost Symbol",
+      "author": "Dan Brown",
+      "image": "https://i.ibb.co/YLM7Cqp/laying-down-book-cover.png",
+      "pages": 528,
+      "rating": 4.2,
+      "price": 18.99,
+      "category": "Classic",
+      "discountedPrice": 15.50
+    },
+    {
+      "id": 2,
+      "name": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "image": "https://i.ibb.co/mXDJBgN/Tafsir-Jalalain-dan-sederet-fakta-tentangnya.jpg",
+      "pages": 336,
+      "rating": 4.5,
+      "price": 14.50,
+      "category": "fancy",
+      "discountedPrice": 11.99
+    },
+    {
+      "id": 3,
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/x2JWgNc/professional-business-book-cover-23-2149490317.jpg",
+      "pages": 336,
+      "rating": 4.8,
+      "price": 12.75,
+      "category": "Jokes",
+      "discountedPrice": 9.99
+    },
+    {
+      "id": 4,
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "image": "https://i.ibb.co/m9j34xx/and-book-new-1.png",
+      "pages": 589,
+      "rating": 4.7,
+      "price": 20.99,
+      "category": "Classic",
+      "discountedPrice": 17.25
+    },
+    {
+      "id": 5,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/0KN3Ln4/book-cover-mockup1-992021-7.jpg",
+      "pages": 224,
+      "rating": 4.4,
+      "price": 11.25,
+      "category": "Jokes",
+      "discountedPrice": 8.99
+    },
+    {
+      "id": 6,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://i.ibb.co/zJ217gT/book-hardcover-mockup-three-views-125540-226.jpg",
+      "pages": 320,
+      "rating": 4.6,
+      "price": 16.75,
+      "category": "funcy",
+      "discountedPrice": 13.99
+    }
+  ]
+  
